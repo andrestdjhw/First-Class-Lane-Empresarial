@@ -1,7 +1,17 @@
-<div class="border-t border-gray-300 mt-4 py-4">
-  <div class="max-w-4xl px-4 mx-auto text-xs text-gray-400">Your footer content here.</div>
-</div>
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <b>FCL Empresarial</b>
+      <span>Personas que mueven empresas</span>
+    </div>
+    <div class="footer-meta">
+      <a href="tel:+14088138335">408-813-8335</a> &middot; <a href="mailto:info@firstclasslane.com">info@firstclasslane.com</a><br>
+      &copy; <?php echo esc_html( date('Y') ); ?> First Class Lane &middot; People &amp; Culture Division
+    </div>
+  </div>
+</footer>
 
 <?php wp_footer(); ?>
-</body>
+  </body>
 </html>
