@@ -1,12 +1,19 @@
 <?php
 
 function fcl_load_assets() {
+  // Versión = fecha de modificación del archivo → el navegador baja la versión
+  // nueva automáticamente en cada build (adiós hard-refresh manual).
+  $css_path = get_theme_file_path('/build/index.css');
+  $js_path  = get_theme_file_path('/build/index.js');
+  $css_ver  = file_exists($css_path) ? filemtime($css_path) : '1.0.0';
+  $js_ver   = file_exists($js_path)  ? filemtime($js_path)  : '1.0.0';
+
   // Compiled Tailwind (src/index.css -> build/index.css)
   wp_enqueue_style(
     'fcl-main',
     get_theme_file_uri('/build/index.css'),
     array(),
-    '1.0.0'
+    $css_ver
   );
 
   // Google Fonts — Fraunces (display) + Inter (body)
@@ -22,7 +29,7 @@ function fcl_load_assets() {
     'fcl-main-js',
     get_theme_file_uri('/build/index.js'),
     array('wp-element', 'react-jsx-runtime'),
-    '1.0.0',
+    $js_ver,
     true
   );
 }

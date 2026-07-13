@@ -10,15 +10,14 @@
 <!-- HEADER -->
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><b>FCL</b><span>Empresarial</span></a>
+    <a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="FCL Empresarial">
+      <img class="brand-badge" src="<?php echo esc_url( content_url( '/uploads/2026/07/PRINCIPAL-scaled.png' ) ); ?>" alt="FCL Empresarial" width="180" height="72">
+    </a>
     <nav class="header-nav" aria-label="Primary">
-      <a class="navlink" href="#cost">The Cost</a>
-      <a class="navlink" href="#method">Methodology</a>
-      <a class="navlink" href="#packages">Packages</a>
+      <a class="navlink" href="#cost" data-i18n="nav.cost">El Costo</a>
+      <a class="navlink" href="#method" data-i18n="nav.method">Metodología</a>
+      <a class="navlink" href="#packages" data-i18n="nav.packages">Paquetes</a>
+      <a class="btn btn--olive btn--sm" href="#book" data-i18n="header.cta">Agendar diagnóstico</a>
     </nav>
-    <div class="header-cta">
-      <a class="header-phone" href="tel:+14088138335">408&middot;813&middot;8335</a>
-      <a class="btn btn--olive" href="#book">Book Diagnostic</a>
-    </div>
   </div>
 </header>
