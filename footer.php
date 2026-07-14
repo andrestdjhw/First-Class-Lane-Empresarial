@@ -2,7 +2,7 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <div class="footer-brand">
-      <b>FCL Empresarial</b>
+      <img class="footer-logo" src="<?php echo esc_url( content_url( '/uploads/2026/07/Recurso-9@2x.png' ) ); ?>" alt="FCL Empresarial">
       <span data-i18n="footer.tagline">Valoramos personas. Fortalecemos empresas.</span>
     </div>
     <div class="footer-meta">

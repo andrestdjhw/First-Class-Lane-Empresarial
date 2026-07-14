@@ -1320,7 +1320,7 @@ const translations = {
     "header.cta": "Agendar diagnóstico",
     // Hero
     "hero.eyebrow": "Consultoría de Personas y Cultura · Bay Area",
-    "hero.title": "Tus mejores colaboradores se están yendo. ¿Sabes por qué?",
+    "hero.title": "Tu mejor talento se está marchando. ¿Sabes por qué?",
     "hero.lead": "Muchas empresas invierten mucho en contratar, pero casi nada en mantener a su gente comprometida, reconocida y con sentido de pertenencia. FCL Empresarial construye los sistemas de cultura que hacen que tu equipo quiera quedarse.",
     "hero.cta1": "Agenda tu diagnóstico de cultura gratuito",
     "hero.cta2": "Cómo funciona",

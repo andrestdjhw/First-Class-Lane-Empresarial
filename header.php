@@ -11,7 +11,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="FCL Empresarial">
-      <img class="brand-badge" src="<?php echo esc_url( content_url( '/uploads/2026/07/PRINCIPAL-scaled.png' ) ); ?>" alt="FCL Empresarial" width="180" height="72">
+      <img class="brand-badge" src="<?php echo esc_url( content_url( '/uploads/2026/07/Recurso-9@2x.png' ) ); ?>" alt="FCL Empresarial">
     </a>
     <nav class="header-nav" aria-label="Primary">
       <a class="navlink" href="#cost" data-i18n="nav.cost">El Costo</a>

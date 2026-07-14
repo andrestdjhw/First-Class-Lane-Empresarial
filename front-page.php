@@ -33,7 +33,7 @@ $hero_has_media  = ( $hero_media_type && $hero_media_url );
   <?php endif; ?>
   <div class="container hero-inner">
     <p class="eyebrow" data-i18n="hero.eyebrow">Consultoría de Personas y Cultura · Bay Area</p>
-    <h1 data-i18n="hero.title">Tus mejores colaboradores se están yendo. ¿Sabes por qué?</h1>
+    <h1 data-i18n="hero.title">Tu mejor talento se está marchando. ¿Sabes por qué?</h1>
     <p class="lead" data-i18n="hero.lead">Muchas empresas invierten mucho en contratar, pero casi nada en mantener a su gente comprometida, reconocida y con sentido de pertenencia. FCL Empresarial construye los sistemas de cultura que hacen que tu equipo quiera quedarse.</p>
     <div class="hero-actions">
       <a class="btn btn--olive" href="#book" data-i18n="hero.cta1">Agenda tu diagnóstico de cultura gratuito</a>
@@ -88,7 +88,7 @@ $hero_has_media  = ( $hero_media_type && $hero_media_url );
       </div>
     </div>
     <div class="about-media" aria-hidden="true">
-      <img src="<?php echo esc_url( content_url( '/uploads/2026/07/BADGE.png' ) ); ?>" alt="FCL Empresarial">
+      <img src="<?php echo esc_url( content_url( '/uploads/2026/07/Recurso-9@2x.png' ) ); ?>" alt="FCL Empresarial">
     </div>
   </div>
 </section>

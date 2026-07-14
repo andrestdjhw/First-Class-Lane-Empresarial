@@ -239,7 +239,7 @@ img,svg{display:block;max-width:100%}
 
 /* ── Footer ─────────────────────────────── */
 .site-footer{background:var(--color-teal-800);color:rgba(249,248,237,.7)}
-.footer-inner{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1.2rem;padding-block:2.4rem}
+.footer-inner{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1.2rem;padding-block:4rem}
 .footer-brand b{font-family:var(--font-display);font-weight:600;font-size:1.1rem;color:var(--color-ivory)}
 .footer-brand span{display:block;font-size:.82rem;color:var(--color-olive);margin-top:.2rem;letter-spacing:.04em}
 .footer-meta{font-size:.82rem;text-align:right}
@@ -366,7 +366,7 @@ img,svg{display:block;max-width:100%}
 .pillar-media .pnum{position:absolute;top:.6rem;left:.7rem;margin:0;background:rgba(11,24,25,.55);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);color:var(--color-ivory);padding:.18rem .55rem;border-radius:999px;font-size:.68rem;font-weight:700;letter-spacing:.1em}
 .pillar-body{padding:1.3rem 1.3rem 1.5rem;display:flex;flex-direction:column;gap:.65rem}
 .pillar.is-in:hover .pillar-media img{transform:scale(1.06)}
-@media(max-width:640px){.pillars > .pillar{flex-basis:82%}.pillars-nav{display:none}}
+@media(max-width:640px){.pillars > .pillar{flex:0 0 clamp(240px,78vw,288px)}}
 
 /* ── Video/imagen de fondo en una banda de sección ── */
 .band.has-media{position:relative;overflow:hidden}
@@ -383,3 +383,6 @@ img,svg{display:block;max-width:100%}
 .about-media{display:flex;align-items:center;justify-content:center}
 .about-media img{width:100%;max-width:340px;height:auto;display:block}
 @media(max-width:820px){.about-grid{grid-template-columns:1fr}.about-media{display:none}}
+
+/* ── Footer: brand logo ── */
+.footer-logo{height:92px;width:auto;display:block;margin-bottom:.7rem;filter:brightness(0) invert(1) sepia(.14) saturate(.5) brightness(.98)}
