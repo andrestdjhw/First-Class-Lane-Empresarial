@@ -24,9 +24,10 @@ export const translations = {
     // Cost of doing nothing
     "cost.eyebrow": "El costo de no hacer nada",
     "cost.title": "La rotación no es solo un problema de personas. Es un problema de rentabilidad.",
-    "cost.p1": "Reemplazar a un solo colaborador cuesta entre el <strong>50 % y el 200 % de su salario anual</strong>. Para una empresa de 50 personas con 30 % de rotación, son cientos de miles perdidos cada año — en reclutamiento, capacitación, productividad y conocimiento que se va por la puerta.",
+    "cost.p1": "Reemplazar a un solo colaborador cuesta entre el <strong>50 % y el 200 % de su salario anual</strong>. Para una empresa de 50 personas con 30 % de rotación, son cientos de miles perdidos cada año: en reclutamiento, capacitación, productividad y conocimiento que se va por la puerta.",
     "cost.p2": "Pero el costo real no es financiero. Es el equipo que deja de confiar en el liderazgo. La cultura que se erosiona en silencio. Los mejores que empiezan a actualizar su currículum porque ven que todos se van.",
     "stat.src": "Promedio de la industria",
+    "stat1.num": "50 a 200<em>%</em>",
     "stat1.label": "Costo de reemplazar a un colaborador, respecto a su salario anual.",
     "stat2.label": "Rotación anual promedio en empresas sin programas de cultura.",
     "stat3.label": "Colaboradores que dicen que el reconocimiento los haría quedarse más tiempo.",
@@ -35,7 +36,7 @@ export const translations = {
     "about.eyebrow": "Quiénes somos",
     "about.title": "Construimos empresas donde las personas quieren quedarse.",
     "about.p1": "FCL Empresarial es una consultoría de personas y cultura que ayuda a las organizaciones a fortalecer su cultura de trabajo, mejorar la experiencia del colaborador y construir entornos donde la gente se siente valorada, comprometida y orgullosa de pertenecer.",
-    "about.p2": "No organizamos fiestas de cumpleaños. Diseñamos sistemas intencionales y estructurados de reconocimiento, integración, comunicación y desarrollo — para que tus líderes no tengan que hacerlo. Somos tu aliado externo de cultura: diseñamos, ejecutamos y medimos. Tú te enfocas en tu negocio.",
+    "about.p2": "No organizamos fiestas de cumpleaños. Diseñamos sistemas intencionales y estructurados de reconocimiento, integración, comunicación y desarrollo, para que tus líderes no tengan que hacerlo. Somos tu aliado externo de cultura: diseñamos, ejecutamos y medimos. Tú te enfocas en tu negocio.",
 
     // Methodology
     "method.eyebrow": "La metodología",
@@ -60,14 +61,14 @@ export const translations = {
     "packages.eyebrow": "Paquetes",
     "packages.title": "Un plan para cada etapa de crecimiento.",
     "pkg.cta": "Agenda tu diagnóstico",
-    "pkg.starter.size": "10–30 empleados",
+    "pkg.starter.size": "10 a 30 empleados",
     "pkg.starter.f1": "Calendario anual de reconocimiento",
     "pkg.starter.f2": "Reconocimiento de cumpleaños y aniversarios",
     "pkg.starter.f3": "Reconocimiento mensual destacado",
     "pkg.starter.f4": "Comunicación interna básica",
     "pkg.starter.goal": "Objetivo: Que los colaboradores se sientan vistos.",
     "pkg.growth.badge": "Más popular",
-    "pkg.growth.size": "30–75 empleados",
+    "pkg.growth.size": "30 a 75 empleados",
     "pkg.growth.f1": "Todo lo de Starter",
     "pkg.growth.f2": "Encuestas trimestrales de compromiso",
     "pkg.growth.f3": "Programas estructurados de reconocimiento",
@@ -95,7 +96,7 @@ export const translations = {
     "how.s4.desc": "Nuestro equipo diseña, organiza y da seguimiento a cada programa. Tú no planeas, coordinas ni gestionas nada. Menos carga administrativa. Más compromiso. Mayor retención de talento.",
 
     // Quote
-    "quote.text": "La cultura existe en todas las empresas. La diferencia es que algunas la gestionan intencionalmente — y otras la dejan al azar.",
+    "quote.text": "La cultura existe en todas las empresas. La diferencia es que algunas la gestionan intencionalmente, y otras la dejan al azar.",
     "quote.sub": "Si logras retener a <em>una</em> persona clave un año más, el programa prácticamente se paga solo.",
 
     // Final CTA
@@ -128,9 +129,10 @@ export const translations = {
     // Cost of doing nothing
     "cost.eyebrow": "The cost of doing nothing",
     "cost.title": "Turnover isn't just a people problem. It's a profit problem.",
-    "cost.p1": "Replacing a single employee costs <strong>50–200% of their annual salary</strong>. For a company of 50 people with 30% turnover, that's hundreds of thousands lost every year — in recruiting, training, lost productivity, and institutional knowledge that walks out the door.",
+    "cost.p1": "Replacing a single employee costs <strong>50 to 200% of their annual salary</strong>. For a company of 50 people with 30% turnover, that's hundreds of thousands lost every year: in recruiting, training, lost productivity, and institutional knowledge that walks out the door.",
     "cost.p2": "But the real cost isn't financial. It's the team that stops trusting leadership. The culture that erodes quietly. The best people who start updating their resumes because they see everyone else leaving.",
     "stat.src": "Industry average",
+    "stat1.num": "50 to 200<em>%</em>",
     "stat1.label": "Cost to replace one employee, relative to annual salary.",
     "stat2.label": "Average annual turnover for companies without culture programs.",
     "stat3.label": "Employees who say recognition would make them stay longer.",
@@ -139,7 +141,7 @@ export const translations = {
     "about.eyebrow": "Who we are",
     "about.title": "We build companies where people want to stay.",
     "about.p1": "FCL Empresarial is a people & culture consultancy that helps organizations strengthen their workplace culture, improve the employee experience, and build environments where people feel valued, engaged, and proud to belong.",
-    "about.p2": "We don't plan birthday parties. We design intentional, structured systems for recognition, onboarding, communication, and employee development — so your leaders don't have to. We act as your external culture partner: we design, execute, and measure. You focus on running your business.",
+    "about.p2": "We don't plan birthday parties. We design intentional, structured systems for recognition, onboarding, communication, and employee development, so your leaders don't have to. We act as your external culture partner: we design, execute, and measure. You focus on running your business.",
 
     // Methodology
     "method.eyebrow": "The methodology",
@@ -164,14 +166,14 @@ export const translations = {
     "packages.eyebrow": "Packages",
     "packages.title": "A plan for every stage of growth.",
     "pkg.cta": "Book Your Diagnostic",
-    "pkg.starter.size": "10–30 employees",
+    "pkg.starter.size": "10 to 30 employees",
     "pkg.starter.f1": "Annual recognition calendar",
     "pkg.starter.f2": "Birthday & anniversary recognition",
     "pkg.starter.f3": "Monthly employee spotlight",
     "pkg.starter.f4": "Basic internal communication",
     "pkg.starter.goal": "Goal: Make employees feel seen.",
     "pkg.growth.badge": "Most Popular",
-    "pkg.growth.size": "30–75 employees",
+    "pkg.growth.size": "30 to 75 employees",
     "pkg.growth.f1": "Everything in Starter",
     "pkg.growth.f2": "Quarterly engagement surveys",
     "pkg.growth.f3": "Structured recognition programs",
@@ -199,7 +201,7 @@ export const translations = {
     "how.s4.desc": "Our team designs, organizes, and tracks every program. You don't plan, coordinate, or manage anything. Less admin. More commitment. Greater talent retention.",
 
     // Quote
-    "quote.text": "Culture exists in every company. The difference is that some manage it intentionally — and others leave it to chance.",
+    "quote.text": "Culture exists in every company. The difference is that some manage it intentionally, and others leave it to chance.",
     "quote.sub": "If you could retain just <em>one</em> key employee for one more year, this program pays for itself.",
 
     // Final CTA

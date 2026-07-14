@@ -51,12 +51,12 @@ $hero_has_media  = ( $hero_media_type && $hero_media_url );
       <h2 data-i18n="cost.title">La rotación no es solo un problema de personas. Es un problema de rentabilidad.</h2>
     </div>
     <div class="cost-copy">
-      <p data-i18n="cost.p1">Reemplazar a un solo colaborador cuesta entre el <strong>50 % y el 200 % de su salario anual</strong>. Para una empresa de 50 personas con 30 % de rotación, son cientos de miles perdidos cada año — en reclutamiento, capacitación, productividad y conocimiento que se va por la puerta.</p>
+      <p data-i18n="cost.p1">Reemplazar a un solo colaborador cuesta entre el <strong>50 % y el 200 % de su salario anual</strong>. Para una empresa de 50 personas con 30 % de rotación, son cientos de miles perdidos cada año: en reclutamiento, capacitación, productividad y conocimiento que se va por la puerta.</p>
       <p data-i18n="cost.p2">Pero el costo real no es financiero. Es el equipo que deja de confiar en el liderazgo. La cultura que se erosiona en silencio. Los mejores que empiezan a actualizar su currículum porque ven que todos se van.</p>
     </div>
     <div class="stats">
       <div class="stat">
-        <div class="num">50–200<em>%</em></div>
+        <div class="num" data-i18n="stat1.num">50 a 200<em>%</em></div>
         <div class="label" data-i18n="stat1.label">Costo de reemplazar a un colaborador, respecto a su salario anual.</div>
         <div class="src" data-i18n="stat.src">Promedio de la industria</div>
       </div>
@@ -84,7 +84,7 @@ $hero_has_media  = ( $hero_media_type && $hero_media_url );
       </div>
       <div class="who">
         <p data-i18n="about.p1">FCL Empresarial es una consultoría de personas y cultura que ayuda a las organizaciones a fortalecer su cultura de trabajo, mejorar la experiencia del colaborador y construir entornos donde la gente se siente valorada, comprometida y orgullosa de pertenecer.</p>
-        <p data-i18n="about.p2">No organizamos fiestas de cumpleaños. Diseñamos sistemas intencionales y estructurados de reconocimiento, integración, comunicación y desarrollo — para que tus líderes no tengan que hacerlo. Somos tu aliado externo de cultura: diseñamos, ejecutamos y medimos. Tú te enfocas en tu negocio.</p>
+        <p data-i18n="about.p2">No organizamos fiestas de cumpleaños. Diseñamos sistemas intencionales y estructurados de reconocimiento, integración, comunicación y desarrollo, para que tus líderes no tengan que hacerlo. Somos tu aliado externo de cultura: diseñamos, ejecutamos y medimos. Tú te enfocas en tu negocio.</p>
       </div>
     </div>
     <div class="about-media" aria-hidden="true">
@@ -166,7 +166,7 @@ $pillars = array(
     <div class="plans">
       <article class="plan">
         <div class="tier">Starter</div>
-        <div class="size" data-i18n="pkg.starter.size">10–30 empleados</div>
+        <div class="size" data-i18n="pkg.starter.size">10 a 30 empleados</div>
         <ul>
           <li data-i18n="pkg.starter.f1">Calendario anual de reconocimiento</li>
           <li data-i18n="pkg.starter.f2">Reconocimiento de cumpleaños y aniversarios</li>
@@ -180,7 +180,7 @@ $pillars = array(
       <article class="plan plan--featured">
         <span class="badge" data-i18n="pkg.growth.badge">Más popular</span>
         <div class="tier">Growth</div>
-        <div class="size" data-i18n="pkg.growth.size">30–75 empleados</div>
+        <div class="size" data-i18n="pkg.growth.size">30 a 75 empleados</div>
         <ul>
           <li data-i18n="pkg.growth.f1">Todo lo de Starter</li>
           <li data-i18n="pkg.growth.f2">Encuestas trimestrales de compromiso</li>
@@ -239,11 +239,13 @@ $pillars = array(
 
 <!-- 7. KEY QUESTION -->
 <section class="quote-band">
+  <div class="quote-fx" aria-hidden="true"></div>
   <div class="container">
     <div class="quote-inner">
       <blockquote>
         <span class="quote-mark" aria-hidden="true">&ldquo;</span>
-        <q data-i18n="quote.text">La cultura existe en todas las empresas. La diferencia es que algunas la gestionan intencionalmente — y otras la dejan al azar.</q>
+        <q data-i18n="quote.text">La cultura existe en todas las empresas. La diferencia es que algunas la gestionan intencionalmente, y otras la dejan al azar.</q>
+        <span class="quote-mark quote-mark--close" aria-hidden="true">&rdquo;</span>
       </blockquote>
       <p class="sub" data-i18n="quote.sub">Si logras retener a <em>una</em> persona clave un año más, el programa prácticamente se paga solo.</p>
     </div>

@@ -205,13 +205,22 @@ img,svg{display:block;max-width:100%}
 @media(prefers-reduced-motion:reduce){.step{animation:none;transform:none}}
 
 /* ── Quote ──────────────────────────────── */
-.quote-band{background:var(--color-teal);color:var(--color-ivory);text-align:center}
+.quote-band{background:var(--color-teal);color:var(--color-ivory);text-align:center;position:relative;overflow:hidden}
 .quote-inner{max-width:34rem;margin:0 auto;padding-block:clamp(4.5rem,11vw,8rem)}
 .quote-inner blockquote{margin:0}
 .quote-mark{font-family:var(--font-display);font-size:3.5rem;color:var(--color-olive);line-height:0;display:block;height:1.4rem}
 .quote-inner q{quotes:none;font-family:var(--font-display);font-weight:500;font-size:clamp(1.7rem,4.6vw,2.9rem);line-height:1.18;letter-spacing:-.01em}
 .quote-inner .sub{margin-top:2rem;font-size:clamp(1rem,2.3vw,1.2rem);font-style:italic;color:var(--color-olive)}
-.quote-inner .sub em{font-style:normal;color:var(--color-ivory)}
+.quote-inner .sub em{font-style:inherit;color:inherit}
+.quote-band > .container{position:relative;z-index:1}
+.quote-mark--close{height:auto;line-height:1;margin-top:.7rem}
+/* estampado giratorio on-brand (adaptado del glow de Uiverse a la paleta) */
+.quote-fx{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.quote-fx::before,.quote-fx::after{content:"";position:absolute;top:50%;left:50%;width:200%;height:200%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,#162F30,#274F50,#8A9373,#D3C8B6,#D6E0E2,#244F50,#162F30);filter:blur(60px);opacity:.3;animation:quotefx 18s linear infinite}
+.quote-fx::after{width:170%;height:170%;opacity:.22;animation:quotefx-rev 24s linear infinite}
+@keyframes quotefx{to{transform:translate(-50%,-50%) rotate(360deg)}}
+@keyframes quotefx-rev{to{transform:translate(-50%,-50%) rotate(-360deg)}}
+@media(prefers-reduced-motion:reduce){.quote-fx::before,.quote-fx::after{animation:none}}
 
 /* ── Final CTA ──────────────────────────── */
 .close{background:var(--color-paper-2)}
